@@ -1,5 +1,7 @@
 <h2>Find Complete Gene  (FCG)</h2>
 <h3>如何使用这个程序。</h3>
+git clone git@github.com:wenyuhaokikika/FCG.git
+
 mkdir run
 
 cd run
