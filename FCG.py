@@ -123,7 +123,7 @@ class stepNotMatchNumsException(Exception):#这个异常指每次迭代的数目
 @click.option('--gfffile', help='blast后perl的转化gff文件')
 @click.option('--fnafile', help='原始基因组的fna文件')
 @click.option('--Au',default='augustus',help='augustus的安装地址，默认是augustus，如果你加入到环境变量中，就不需要改变。')
-def Iteration(step,gfffile,fnafile):
+def Iteration(step,maxlen,gfffile,fnafile,Au):
 	'''
 	这个程序切去衍生的序列做成gff文件，建模，\n
 	得倒的文件筛选含有开始和结尾的文件，如果有开始和结尾，就认为这个预测基因完整。\n
