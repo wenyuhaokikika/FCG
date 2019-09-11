@@ -1,0 +1,8 @@
+bio==0.1.0
+biopython==1.73
+biothings-client==0.2.0
+Click==7.0
+click-plugins==1.1.1
+numpy==1.16.2
+pandas==0.24.1
+matplotlib==3.0.3
