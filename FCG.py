@@ -126,7 +126,8 @@ class stepNotMatchNumsException(Exception):#这个异常指每次迭代的数目
 def Iteration(step,gfffile,fnafile):
 	'''
 	这个程序切去衍生的序列做成gff文件，建模，\n
-	得倒的文件筛选含有开始和结尾的文件。\n
+	得倒的文件筛选含有开始和结尾的文件，如果有开始和结尾，就认为这个预测基因完整。\n
+	完整的基因记下后去除，不完整的进行下一轮迭代。\n
 	/******contribute the code for projction if you are my brother,**********/\n
 	/******The slacking is not my brother.***********************************/\n
 	'''
